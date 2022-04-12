@@ -28,7 +28,7 @@ class Boneco():
         self.bonecoDesenho = self.estados[self.vida]
 
 
-with open('Cap5Pratica/Lab3/data.txt', 'r') as data:
+with open('data.txt', 'r') as data:
     palavras = data.read()
 listaPalavras = palavras.split(',')
 
